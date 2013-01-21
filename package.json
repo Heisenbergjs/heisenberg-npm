@@ -1,0 +1,13 @@
+{
+  "name": "heisenberg",
+  "version": "0.1.0",
+  "description": "Set up heisenberg projects from the command line",
+  "preferGlobal": "true",
+  "bin": {
+    "heisenberg": "heisenberg.js"
+  },
+  "dependencies": {
+    "shelljs": "0.1.1"
+  }
+}
+
