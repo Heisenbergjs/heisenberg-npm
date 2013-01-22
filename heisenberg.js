@@ -16,6 +16,9 @@ shell.exec("git clone git@github.com:Heisenbergjs/heisenberg.git .", function(co
   output("Running pulldown to satisfy dependencies");
   shell.exec("pulldown");
 
+  output("Running npm to satisfy dependencies");
+  shell.exec("npm install");
+
   output("Setting up a new Git project");
   shell.rm("-rf", ".git");
   shell.exec("git init");
