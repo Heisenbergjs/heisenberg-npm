@@ -10,7 +10,7 @@ npm install -g heisenberg
 ```
 
 ```
-mdkr newproj && cd newproj
+mkdir newproj && cd newproj
 heisenberg
 ```
 
